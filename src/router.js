@@ -1,11 +1,20 @@
 
-import home from './views/new'
+import other from './views/other'
+// import home from './views/home'
 
 
 export const routes = [
     {
       path: "/",
-      name: 'home',
-      component: home
-    }
+      name: 'other',
+      component: other
+    },
+
+    // {
+    //     path: "/",
+    //     name: 'home',
+    //     component: home
+    //   }
+
+
 ]
